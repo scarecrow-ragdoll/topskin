@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         cookieManager.setAcceptCookie(true)
 
         webStorage = WebStorage.getInstance()
-        myWebView.loadUrl("https://topskin.co")
+        myWebView.loadUrl("https://topskin.io")
         setContentView(myWebView)
     }
 
